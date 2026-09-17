@@ -17,8 +17,8 @@ Email: [jordan_hou718@163.com](mailto:jordan_hou718@163.com)
 
 **Tencent** — Security Engineer · `[时间待补]`
 
-- **LLM-augmented vulnerability detection** — used LLMs to filter false positives, pushing precision to **96.15%** (**+64.39 pp ↑**, vs 33.3% for the strongest SOTA).
-- **SAST engine extension** — used LLMs to supplement the broken data flows of SAST engines, raising vulnerability coverage from 0 to **80%+** on an industrial benchmark of real-world vulnerability samples and surfacing **600+** new vulnerabilities.
+- **LLM-augmented vulnerability detection** — used LLMs to filter false positives, achieving **96.15%** precision (**+64.39 pp ↑**, vs 33.3% for the strongest SOTA) on injection-vulnerability detection.
+- **SAST engine extension** — used LLMs to supplement broken SAST data flows, raising vulnerability coverage from 0 to **80%+** on an industrial benchmark built from real-world historical vulnerabilities and surfacing **600+** new vulnerabilities.
 - **White-box authorization / IDOR detection** — led the design of an LLM-based detection system covering **92%** of risk code repositories, surfacing **1000+** verified permission-risk vulnerabilities and preventing billion-scale data leaks — the system spans the full closed loop from vulnerability detection to fix verification.
 - **LLM-based incremental scanning agent** — currently building from scratch an LLM-based agent that scans only incremental code changes, now under active iteration, with internal launch and operation planned for **October 2026**.
 
@@ -26,6 +26,7 @@ Email: [jordan_hou718@163.com](mailto:jordan_hou718@163.com)
 
 - **[ACM CCS 2026, accepted]** *Foot in the Door: Uncovering the Multi-Step Authorization Exploitation in Mobile Applications* — Yizhe Shi, Zhemin Yang, **Qiaodan Hou**, Lukai Cui, Cheng Sheng, Xiaohan Zhang, and Min Yang. **Contributions:** proposed the core idea; designed and implemented most of MAXChecker; contributed to evaluation and manuscript preparation. MAXChecker combines static and dynamic analysis to identify multi-step authorization exploitation, uncovering 362 vulnerable apps (13 vendor confirmations, 14 CNVD IDs, and 9 CVE IDs).
 - **[ACM TOSEM, accepted]** *VulnBridge: Program Semantics Guided Agents for Vulnerability Discovery* — Xu Han, Guangliang Yang, Yi Wang, Can Li, YangShuo Bai, XinMing Guo, AoHan Mei, Keke Lian, Dong Zhang, **Qiaodan Hou**, and Min Yang. Combines LLM probabilistic reasoning with structured static analysis to bridge the semantic islands of source code, connecting more sources and sinks that were previously unreachable — an evaluation on real-world software uncovered zero-day vulnerabilities leading to new CVE IDs.
+- **[Manuscript under review]** *Memoir: Learning, Verifying, and Evolving False-Positive Memories for Static Application Security Testing Tools* — **second author** · industry–academia collaboration. **Contributions:** designed the tool, conducted the experiments, and contributed to the writing. Memoir transforms historical false-positive alerts into reusable, self-evolving semantic memories through LLM-guided construction and retrieval-based verification against taxonomy consistency and security invariants. It achieves F1 99.43% (98.88% recall; 100% precision) on CWE-Bench-Java and generalizes across SAST tools without retraining in an industrial case study.
 
 ## Skills
 
