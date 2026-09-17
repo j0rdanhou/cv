@@ -19,7 +19,7 @@ Email: [jordan_hou718@163.com](mailto:jordan_hou718@163.com)
 
 - **LLM-augmented vulnerability detection** — used LLMs to filter false positives, pushing precision to **96.15%** (**+64.39 pp ↑**, vs 33.3% for the strongest SOTA).
 - **SAST engine extension** — used LLMs to supplement the broken data flows of SAST engines, raising vulnerability coverage from 0 to **80%+** on an industrial benchmark of real-world vulnerability samples and surfacing **600+** new vulnerabilities.
-- **White-box authorization / IDOR detection** — led the design of an LLM-based detection system covering **92%** of risk code repositories, surfacing **6000+** permission-risk findings and preventing billion-scale data leaks — the system spans the full closed loop from vulnerability detection to fix verification.
+- **White-box authorization / IDOR detection** — led the design of an LLM-based detection system covering **92%** of risk code repositories, surfacing **1000+** verified permission-risk vulnerabilities and preventing billion-scale data leaks — the system spans the full closed loop from vulnerability detection to fix verification.
 - **LLM-based incremental scanning agent** — currently building from scratch an LLM-based agent that scans only incremental code changes, now under active iteration, with internal launch and operation planned for **October 2026**.
 
 ## Publications
