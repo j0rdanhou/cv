@@ -17,7 +17,7 @@ Email: [jordan_hou718@163.com](mailto:jordan_hou718@163.com)
 
 **Tencent** — Security Engineer · 2025 – Present
 
-- **LLM-augmented vulnerability detection** — used LLMs to filter false positives, achieving **96.15%** precision (**+64.39 pp ↑**, vs 33.3% for the strongest SOTA) on injection-vulnerability detection.
+- **LLM-augmented vulnerability detection** — used LLMs to filter false positives, achieving **96.15%** precision (**+64.39 pp ↑**) on injection-vulnerability detection.
 - **LLM-assisted SAST data-flow recovery** — used LLMs to supplement incomplete SAST data flows, increasing vulnerability coverage from 0 to **80%+** on an industrial benchmark built from real-world historical vulnerabilities and identifying **600+** new vulnerabilities.
 - **White-box authorization / IDOR detection** — led the design of an LLM-based detection system covering **92%** of high-risk repositories, identifying **1,000+** verified access-control vulnerabilities and mitigating risks of billion-scale data exposure — spanning the full closed loop from vulnerability detection to fix verification.
 - **LLM-based incremental scanning agent** — building an agent that analyzes incremental code changes; it is under active iteration, with internal rollout planned for **October 2026**.
