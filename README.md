@@ -4,7 +4,7 @@
 
 Email: [jordan_hou718@163.com](mailto:jordan_hou718@163.com)
 
-**Research Interests:** AI-native security analysis and testing for authorization and business-logic vulnerabilities in software and multi-agent systems.
+**Research Interests:** LLM-augmented program analysis and dynamic testing for vulnerability discovery, with a focus on AI-native analysis of authorization and business-logic vulnerabilities in software and multi-agent systems.
 
 ---
 
